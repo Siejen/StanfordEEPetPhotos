@@ -1,0 +1,61 @@
+.thumb {
+    display:block;
+    width:200px;
+    height:140px;
+    position:relative;
+    margin-bottom:20px;
+    margin-right:20px;
+    float:left;
+}
+    .thumb-wrapper {
+        display:block;
+        width:100%;
+        height:100%;
+    }
+    .thumb img {
+        width:100%;
+        height:100%;
+        position:absolute;
+        display:block;            
+                
+    }
+    
+    .thumb .thumb-detail {
+        display:block;
+        width:100%;
+        height:100%;
+        position:absolute;            
+        background:#fff;        
+    }
+        
+/*
+* Without CSS3 Scroll Up Effect
+*/
+.thumb.scroll {
+    overflow: hidden;
+}    
+    .thumb.scroll .thumb-detail {
+        bottom:-280px;
+    }
+
+.thumb.flip {
+    perspective:800px;
+}
+    .thumb.flip .thumb-wrapper {
+        transition: transform 1s;
+        transform-style: preserve-3d;            
+    }
+    
+    .thumb.flip .thumb-detail {
+        transform: rotateY(-180deg);                           
+    }
+    
+    .thumb.flip img,
+    .thumb.flip .thumb-detail {
+        backface-visibility: hidden;
+    }
+    
+    .thumb.flip .flipIt {
+        transform: rotateY(-180deg);            
+    }
+    
