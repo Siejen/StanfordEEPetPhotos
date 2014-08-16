@@ -58,4 +58,10 @@
     .thumb.flip .flipIt {
         transform: rotateY(-180deg);            
     }
-    
+
+/*.border {
+    border-color: #FFFFFF;
+    border-style: solid;
+    border: 50px; 
+}
+*/
