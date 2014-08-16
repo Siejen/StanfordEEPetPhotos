@@ -4,7 +4,8 @@ body {
 
 h1 {
   color: #FFFFFF;
-  font-family: tahoma;
+  font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+  margin-bottom:0em;
 }
 textarea {
     width: 200px;
@@ -53,10 +54,11 @@ table {
 .jumbotron {
   /*background-image: url("http://apod.nasa.gov/apod/image/1408/comet_on_3_august_2014.jpg") 0 -300;  */
   background: url("http://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Stanford_Oval_May_2011_panorama.jpg/800px-Stanford_Oval_May_2011_panorama.jpg") center;
-  background-size:   cover;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 200px;
   border-radius: 15px;
+  border: 0px;
 }
 .col-md-12 {
   background-color: #8C1515;
