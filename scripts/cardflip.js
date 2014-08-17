@@ -1,6 +1,8 @@
 $(function () {
     var container = document.querySelector('#masonrycontainer');
     var msnry = new Masonry( container, {
+        gutter: 20,
+        isFitWidth: true,
         // options
         // columnWidth: 200, <-- do not need this since the default column width is acceptable
         itemSelector: '.thumb'
