@@ -1,4 +1,11 @@
 $(function () {
+    var container = document.querySelector('#masonrycontainer');
+    var msnry = new Masonry( container, {
+        // options
+        // columnWidth: 200, <-- do not need this since the default column width is acceptable
+        itemSelector: '.thumb'
+    });
+
     // Utilize the modernzr feature support class to detect CSS 3D transform support
     if ($('html').hasClass('csstransforms3d')) {    
     
