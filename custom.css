@@ -53,7 +53,7 @@ table {
 }
 .jumbotron {
   /*background-image: url("http://apod.nasa.gov/apod/image/1408/comet_on_3_august_2014.jpg") 0 -300;  */
-  background: url("http://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Stanford_Oval_May_2011_panorama.jpg/800px-Stanford_Oval_May_2011_panorama.jpg") center;
+  background: url("images/Stanford_Oval_May_2011_panorama2.jpg") center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 200px;
